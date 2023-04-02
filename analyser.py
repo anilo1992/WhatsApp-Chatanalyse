@@ -68,4 +68,4 @@ try:
     print(f"Links geteilt: {len(re.findall('https?', cleanChat()))}\n")
 
 except:
-    print('Fehler! Skript kann nicht ausgeführt werden. Die Textdatei ist entweder beschädigt oder enthält nicht über ausreichende Daten. Um den Fehler zu beheben, muss der Chatverlauf mindestens zwei Nachrichten und zwei Autoren beinhalten.')
+    print('Es ist ein Fehler aufgetreten!\n\nSkript kann nicht ausgeführt werden. Die Textdatei ist entweder beschädigt oder enthält nicht über ausreichende Daten. Um den Fehler bestmöglich zu beheben, muss der Chatverlauf direkt von WhatsApp exportiert und unbearbeitet vom Skript gelesen werden. Der Chatverlauf muss ebenfalls mindestens zwei Nachrichten und zwei Autoren mit jeweils Sender und Empfänger beinhalten. Es wird empfohlen, dass vor dem Export des Chatverlaufes die Kontaktperson mit einem Namen eingespeichert wird.')
