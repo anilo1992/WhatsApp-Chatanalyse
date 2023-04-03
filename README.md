@@ -43,6 +43,6 @@ Links geteilt: 7
 ----------------------
 - Dieser Skript verwendet RegEx, um die Daten extrahieren zu können.
 - Es unterstützt nur folgendes Chatmuster:
-```python
+```
     "01.01.01, 00:00 - Kontaktname: Dies ist eine Nachricht."
   ```
